@@ -1,0 +1,103 @@
+
+@media (min-width: 1024px){
+    .pc {
+        display: block;
+    }
+
+    #header .mobile-search-btn{
+        display: none;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .tablet {
+        /* padding-right: 20px; */
+        display: block;
+    }
+
+    #header .mobile-search-btn{
+        display: none;
+    }
+}
+
+@media (max-width: 740px){
+
+    .mobile {
+        display: block;
+    }
+}
+
+@media (max-width: 740px){
+    #nav{
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+    #header {
+        
+/* right:48.8%; */
+        
+/* height: fit-content; */
+    }
+
+    #content .img-theband {
+        width: 80%;
+    }
+
+    #content .img-member{
+        flex-wrap: wrap;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+    #nav > li:hover > a,
+    #nav .subnav li:hover a {
+      background-color: black;
+      color: white;
+
+    }
+
+    #content .tour-section .section-heading{
+        
+    }
+
+
+    .contact-form{
+        width: 100%;
+        /* display: inline-block; */
+    }
+
+    .col{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .col-half{
+        width: 100%;
+    }
+
+    .mt-16px{
+        margin-right: 0px;
+    }
+    #content .book-ticket{
+        margin-left: 16px;
+        margin-right: 16px;
+        /* box-sizing: inherit; */
+        /* margin: ; */
+    }   
+    #content .tour-image-line{
+        flex-wrap: wrap;
+    }
+
+    #content .place-tour{
+        width: 100%;
+    }
+
+    #content .book-ticket li {
+    
+    }
+
+}
